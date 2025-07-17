@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
+  <!-- Background -->
+  <rect width="300" height="200" fill="transparent"/>
+  
+  <!-- Money Transfer Illustration -->
+  <g transform="translate(150, 100)">
+    <!-- Smartphone with Banking App -->
+    <g transform="translate(-70, 0)">
+      <!-- Phone -->
+      <rect x="-25" y="-40" width="50" height="80" rx="5" fill="#333333"/>
+      <rect x="-20" y="-35" width="40" height="70" rx="3" fill="#f8f9fa"/>
+      
+      <!-- Banking App Interface -->
+      <rect x="-18" y="-33" width="36" height="10" rx="2" fill="#00a651" opacity="0.8"/>
+      <circle cx="-10" cy="-28" r="2" fill="#ffffff" opacity="0.8"/>
+      <rect x="-5" y="-30" width="20" height="4" rx="1" fill="#ffffff" opacity="0.5"/>
+      
+      <!-- Account Balance -->
+      <rect x="-15" y="-18" width="30" height="15" rx="2" fill="#eeeeee"/>
+      <text x="0" y="-8" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#00a651" text-anchor="middle">RM 5,000</text>
+      
+      <!-- Transaction List -->
+      <rect x="-15" y="2" width="30" height="5" rx="1" fill="#eeeeee"/>
+      <rect x="-15" y="10" width="30" height="5" rx="1" fill="#eeeeee"/>
+      <rect x="-15" y="18" width="30" height="5" rx="1" fill="#eeeeee"/>
+      <rect x="-15" y="26" width="30" height="5" rx="1" fill="#eeeeee"/>
+      
+      <!-- Home Button -->
+      <circle cx="0" cy="37" r="3" fill="#555555"/>
+    </g>
+    
+    <!-- Money Transfer Animation -->
+    <g>
+      <!-- Transfer Arrow -->
+      <path d="M-40,0 C-20,-20 20,-20 40,0" stroke="#00a651" stroke-width="3" fill="none" stroke-dasharray="5,3" stroke-linecap="round"/>
+      
+      <!-- Money Bills in Transfer -->
+      <g transform="translate(0, -5)">
+        <!-- Bill 1 -->
+        <g transform="translate(-20, 0) rotate(-15)">
+          <rect x="-12" y="-6" width="24" height="12" rx="1" fill="#00a651" opacity="0.9"/>
+          <rect x="-8" y="-3" width="16" height="6" rx="1" fill="#ffffff" opacity="0.3"/>
+        </g>
+        
+        <!-- Bill 2 -->
+        <g transform="translate(0, 0) rotate(5)">
+          <rect x="-12" y="-6" width="24" height="12" rx="1" fill="#00a651" opacity="0.8"/>
+          <rect x="-8" y="-3" width="16" height="6" rx="1" fill="#ffffff" opacity="0.3"/>
+        </g>
+        
+        <!-- Bill 3 -->
+        <g transform="translate(20, 0) rotate(15)">
+          <rect x="-12" y="-6" width="24" height="12" rx="1" fill="#00a651" opacity="0.7"/>
+          <rect x="-8" y="-3" width="16" height="6" rx="1" fill="#ffffff" opacity="0.3"/>
+        </g>
+      </g>
+    </g>
+    
+    <!-- Bank Building -->
+    <g transform="translate(70, 0)">
+      <!-- Building Base -->
+      <rect x="-30" y="-10" width="60" height="40" fill="#ffffff" stroke="#dddddd" stroke-width="2"/>
+      
+      <!-- Building Roof/Top -->
+      <path d="M-35,-10 L35,-10 L25,-30 L-25,-30 Z" fill="#00a651" opacity="0.8"/>
+      
+      <!-- Pillars -->
+      <rect x="-25" y="-10" width="5" height="40" fill="#eeeeee"/>
+      <rect x="-10" y="-10" width="5" height="40" fill="#eeeeee"/>
+      <rect x="5" y="-10" width="5" height="40" fill="#eeeeee"/>
+      <rect x="20" y="-10" width="5" height="40" fill="#eeeeee"/>
+      
+      <!-- Door -->
+      <rect x="-7.5" y="10" width="15" height="20" fill="#00a651" opacity="0.3"/>
+      
+      <!-- Bank Logo -->
+      <circle cx="0" cy="-20" r="5" fill="#ffffff"/>
+      <text x="0" y="-18" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#00a651" text-anchor="middle">BANK</text>
+    </g>
+    
+    <!-- Bank Logos -->
+    <g transform="translate(0, 40)">
+      <rect x="-80" y="-5" width="160" height="20" rx="3" fill="#f8f9fa" stroke="#eeeeee" stroke-width="1"/>
+      
+      <!-- Bank Logo 1 -->
+      <circle cx="-60" cy="5" r="6" fill="#00a651" opacity="0.7"/>
+      <text x="-60" y="7" font-family="Arial, sans-serif" font-size="4" font-weight="bold" fill="#ffffff" text-anchor="middle">B1</text>
+      
+      <!-- Bank Logo 2 -->
+      <circle cx="-30" cy="5" r="6" fill="#ffc107" opacity="0.7"/>
+      <text x="-30" y="7" font-family="Arial, sans-serif" font-size="4" font-weight="bold" fill="#ffffff" text-anchor="middle">B2</text>
+      
+      <!-- Bank Logo 3 -->
+      <circle cx="0" cy="5" r="6" fill="#007bff" opacity="0.7"/>
+      <text x="0" y="7" font-family="Arial, sans-serif" font-size="4" font-weight="bold" fill="#ffffff" text-anchor="middle">B3</text>
+      
+      <!-- Bank Logo 4 -->
+      <circle cx="30" cy="5" r="6" fill="#dc3545" opacity="0.7"/>
+      <text x="30" y="7" font-family="Arial, sans-serif" font-size="4" font-weight="bold" fill="#ffffff" text-anchor="middle">B4</text>
+      
+      <!-- Bank Logo 5 -->
+      <circle cx="60" cy="5" r="6" fill="#6610f2" opacity="0.7"/>
+      <text x="60" y="7" font-family="Arial, sans-serif" font-size="4" font-weight="bold" fill="#ffffff" text-anchor="middle">B5</text>
+    </g>
+    
+    <!-- Decorative Elements -->
+    <g>
+      <!-- Title -->
+      <text x="0" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00a651" text-anchor="middle">Terima Wang Dengan Cepat</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ms">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PinjamanExpress - Pinjaman Peribadi Segera Malaysia</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/tittle.png" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header sticky-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo.png" alt="PinjamanExpress Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#beranda">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cara-mohon">Cara Mohon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#kelebihan">Kelebihan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimoni">Testimoni</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hubungi">Hubungi Kami</a>
+                        </li>
+                    </ul>
+                    <a href="#mohon-sekarang" class="btn btn-primary ms-lg-3">Mohon Sekarang</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title">Pinjaman Peribadi Sehingga RM10,000</h1>
+                    <h2 class="hero-subtitle">Lulus Dalam 5 Minit!</h2>
+                    <p class="hero-text">Dapatkan wang tunai segera hari ini. Proses permohonan sepenuhnya dalam talian,
+                        hanya perlukan MyKad sahaja.</p>
+                    <div class="hero-buttons">
+                        <a href="#mohon-sekarang" class="btn btn-primary btn-lg">Mohon Sekarang</a>
+                        <a href="#cara-mohon" class="btn btn-outline-primary btn-lg ms-3">Cara Mohon</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/images/hero.png" alt="Pinjaman Peribadi" class="img-fluid hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loan Application Section -->
+    <section id="mohon-sekarang" class="loan-application-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="loan-application-card">
+                        <h2 class="section-title text-center">Mohon Pinjaman Sekarang</h2>
+                        <div class="loan-slider-container">
+                            <label for="loan-amount" class="form-label">Jumlah Pinjaman (RM)</label>
+                            <input type="range" class="form-range" id="loan-amount" min="1000" max="10000" step="500"
+                                value="5000">
+                            <div class="loan-amount-display">RM <span id="loan-amount-value">5000</span></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="customer-name" class="form-label">Nama Anda</label>
+                            <input type="text" class="form-control" id="customer-name" placeholder="Masukkan nama anda">
+                        </div>
+                        <button id="apply-loan-btn" class="btn btn-primary btn-lg w-100">Mohon Sekarang</button>
+                        <p class="text-center mt-3 small">Dengan mengklik butang ini, anda bersetuju dengan <a
+                                href="#">Terma & Syarat</a> kami</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Apply Section -->
+    <section id="cara-mohon" class="how-to-apply-section">
+        <div class="container">
+            <h2 class="section-title text-center">Macam Mana Nak Mohon Pinjaman Melalui Telegram?</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3 class="step-title">Isi Borang Dalam Talian</h3>
+                        <ul class="step-list">
+                            <li>Pilih jumlah pinjaman anda</li>
+                            <li>Masukkan nama anda</li>
+                            <li>Klik butang "Mohon Sekarang"</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3 class="step-title">Hubungi Kami Di Telegram</h3>
+                        <ul class="step-list">
+                            <li>Anda akan dibawa ke aplikasi Telegram</li>
+                            <li>Mesej permohonan akan diisi secara automatik</li>
+                            <li>Hantar mesej kepada pegawai kami</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3 class="step-title">Terima Kelulusan & Wang</h3>
+                        <ul class="step-list">
+                            <li>Dapatkan kelulusan dalam masa 5 minit</li>
+                            <li>Terima wang melalui pemindahan bank</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="kelebihan" class="benefits-section">
+        <div class="container">
+            <h2 class="section-title text-center">Kenapa Pilih Kami?</h2>
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h3 class="benefit-title">Proses Dalam Talian</h3>
+                        <p class="benefit-text">Mohon pinjaman sepenuhnya secara online tanpa perlu ke pejabat</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 class="benefit-title">Terima Wang Pada Hari Yang Sama</h3>
+                        <p class="benefit-text">Dapatkan wang tunai dengan cepat pada hari yang sama</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="benefit-title">Berdaftar dan Berlesen</h3>
+                        <p class="benefit-text">Syarikat pinjaman wang yang sah dan berlesen</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <h3 class="benefit-title">Hanya MyKad Diperlukan</h3>
+                        <p class="benefit-text">Proses mudah dengan hanya MyKad sahaja</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimoni" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title text-center">Testimoni Pelanggan Kami</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Proses permohonan sangat mudah dan cepat. Saya dapat kelulusan
+                            dalam masa 5 minit dan wang masuk ke akaun saya pada hari yang sama. Sangat berpuas hati
+                            dengan perkhidmatan mereka!"</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/orang1.png" alt="Ahmad" class="testimonial-avatar">
+                            <div class="testimonial-author-info">
+                                <h4 class="testimonial-author-name">Ahmad bin Ismail</h4>
+                                <p class="testimonial-author-location">Kuala Lumpur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Saya sangat mengesyorkan perkhidmatan pinjaman ini. Proses yang
+                            telus dan tiada caj tersembunyi. Kakitangan mereka sangat membantu dan profesional."</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/orang2.png" alt="Siti" class="testimonial-avatar">
+                            <div class="testimonial-author-info">
+                                <h4 class="testimonial-author-name">Siti Aminah</h4>
+                                <p class="testimonial-author-location">Johor Bahru</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"Terima kasih kerana membantu saya dalam situasi kecemasan. Proses
+                            permohonan yang sangat mudah dan wang diterima dengan cepat. Akan gunakan perkhidmatan ini
+                            lagi jika perlu."</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/orang3.png" alt="Raj" class="testimonial-avatar">
+                            <div class="testimonial-author-info">
+                                <h4 class="testimonial-author-name">Raj Kumar</h4>
+                                <p class="testimonial-author-location">Penang</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="rakan-kongsi" class="partners-section">
+        <div class="container">
+            <h2 class="section-title text-center">Rakan Kongsi Kami</h2>
+            <div class="partners-logo-container">
+                <div class="partner-logo">
+                    <img src="assets/images/partner1.png" alt="Partner 1" class="img-fluid">
+                </div>
+                <div class="partner-logo">
+                    <img src="assets/images/partner2.png" alt="Partner 2" class="img-fluid">
+                </div>
+                <div class="partner-logo">
+                    <img src="assets/images/partner3.png" alt="Partner 3" class="img-fluid">
+                </div>
+                <div class="partner-logo">
+                    <img src="assets/images/partner4.png" alt="Partner 4" class="img-fluid">
+                </div>
+                <div class="partner-logo">
+                    <img src="assets/images/partner5.png" alt="Partner 5" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2 class="section-title text-center">Soalan Lazim Tentang Pinjaman Melalui Telegram</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Bagaimana cara memohon pinjaman melalui Telegram?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Anda boleh memohon pinjaman dengan mengisi borang di laman web ini atau terus
+                                    menghubungi kami melalui Telegram di @aainaasafra. Kami akan membalas dalam masa 5
+                                    minit untuk memproses permohonan anda.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Siapa yang layak memohon pinjaman melalui Telegram?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Warganegara Malaysia berumur 21-60 tahun dengan pendapatan tetap bulanan minimum
+                                    RM1,500 layak memohon pinjaman kami melalui Telegram.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Berapa cepat saya akan mendapat maklum balas selepas menghubungi melalui Telegram?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Selepas menghubungi kami melalui Telegram, anda akan mendapat maklum balas dalam
+                                    masa 5 minit dan kelulusan pinjaman boleh diproses pada hari yang sama. Wang akan
+                                    dikreditkan ke akaun anda selepas pengesahan.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Apakah maklumat yang perlu saya sediakan dalam mesej Telegram?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Dalam mesej Telegram anda, sila sediakan nama penuh, nombor telefon, jumlah pinjaman
+                                    yang diperlukan, dan tujuan pinjaman. Kami akan meminta salinan MyKad dan dokumen
+                                    lain yang diperlukan semasa perbualan.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Bolehkah saya membuat pembayaran balik melalui Telegram juga?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Kami akan memberikan maklumat pembayaran balik melalui Telegram. Pembayaran boleh
+                                    dibuat melalui pelbagai kaedah termasuk perbankan dalam talian, JomPAY, dan anda
+                                    boleh mengesahkan pembayaran dengan menghantar resit melalui Telegram.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="hubungi" class="contact-section">
+        <div class="container">
+            <h2 class="section-title text-center">Hubungi Kami</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Alamat</h3>
+                                <p>Tingkat 12, Menara ABC, Jalan Bukit Bintang, 55100 Kuala Lumpur, Malaysia</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Telefon</h3>
+                                <p><a href="tel:+60312345678">+603 1234 5678</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>E-mel</h3>
+                                <p><a href="mailto:info@pinjamanexpress.my">info@pinjamanexpress.my</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Waktu Operasi</h3>
+                                <p>Isnin - Jumaat: 9:00 pagi - 6:00 petang<br>Sabtu: 9:00 pagi - 1:00 petang<br>Ahad &
+                                    Cuti Umum: Tutup</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-form-card">
+                        <h3>Hantar Pertanyaan</h3>
+                        <form id="contact-form">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nama Penuh</label>
+                                <input type="text" class="form-control" id="name"
+                                    placeholder="Masukkan nama penuh anda">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mel</label>
+                                <input type="email" class="form-control" id="email"
+                                    placeholder="Masukkan alamat e-mel anda">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Nombor Telefon</label>
+                                <input type="tel" class="form-control" id="phone"
+                                    placeholder="Masukkan nombor telefon anda">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Mesej</label>
+                                <textarea class="form-control" id="message" rows="4"
+                                    placeholder="Masukkan mesej anda"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Hantar Mesej</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-about">
+                        <img src="assets/images/logo-white.png" alt="PinjamanExpress Logo" class="footer-logo">
+                        <p>PinjamanExpress menyediakan perkhidmatan pinjaman peribadi yang mudah, cepat dan selamat
+                            untuk semua warganegara Malaysia.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-links">
+                        <h3>Pautan Pantas</h3>
+                        <ul>
+                            <li><a href="#beranda">Beranda</a></li>
+                            <li><a href="#cara-mohon">Cara Mohon</a></li>
+                            <li><a href="#kelebihan">Kelebihan</a></li>
+                            <li><a href="#testimoni">Testimoni</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="footer-links">
+                        <h3>Perkhidmatan</h3>
+                        <ul>
+                            <li><a href="#">Pinjaman Peribadi</a></li>
+                            <li><a href="#">Pinjaman Kecemasan</a></li>
+                            <li><a href="#">Pinjaman Tanpa Jaminan</a></li>
+                            <li><a href="#">Pinjaman Perniagaan</a></li>
+                            <li><a href="#">Pinjaman Pendidikan</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="footer-links">
+                        <h3>Maklumat Lanjut</h3>
+                        <ul>
+                            <li><a href="#">Tentang Kami</a></li>
+                            <li><a href="#">Terma & Syarat</a></li>
+                            <li><a href="#">Dasar Privasi</a></li>
+                            <li><a href="#">Lesen & Pendaftaran</a></li>
+                            <li><a href="#hubungi">Hubungi Kami</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="copyright">© 2023 PinjamanExpress. Hak Cipta Terpelihara.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="disclaimer">PinjamanExpress adalah syarikat pinjaman wang berlesen di bawah Akta
+                            Pemberi Pinjam Wang 1951.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Telegram Button -->
+    <a href="https://t.me/+EUKhYfBIUpI2ZWE1" class="telegram-btn" target="_blank">
+        <i class="fab fa-telegram"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="80" viewBox="0 0 150 80">
+  <!-- Background Rectangle (transparent) -->
+  <rect width="150" height="80" fill="transparent"/>
+  
+  <!-- E-Wallet Logo -->
+  <g transform="translate(75, 40)">
+    <!-- Wallet Icon -->
+    <g transform="translate(-30, -20)">
+      <path d="M0,0 L60,0 L60,40 L0,40 Z" fill="#6610f2" stroke="#333333" stroke-width="2" rx="3"/>
+      <path d="M0,0 L60,0 L60,10 L0,10 Z" fill="#333333"/>
+      
+      <!-- Card in Wallet -->
+      <rect x="10" y="15" width="40" height="20" rx="2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+      <rect x="15" y="20" width="30" height="5" rx="1" fill="#eeeeee"/>
+      <rect x="15" y="30" width="20" height="3" rx="1" fill="#eeeeee"/>
+    </g>
+    
+    <!-- Company Name -->
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333" text-anchor="middle">BOOST</text>
+  </g>
+</svg>

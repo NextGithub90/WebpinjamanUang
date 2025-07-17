@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="transparent"/>
+  
+  <!-- Money Stack -->
+  <g transform="translate(300, 200) scale(0.8, 0.8)">
+    <!-- Money Bills -->
+    <g transform="translate(-150, -100)">
+      <!-- Bill 1 (Bottom) -->
+      <rect x="0" y="30" width="300" height="140" rx="10" fill="#00a651" opacity="0.8"/>
+      <rect x="20" y="50" width="260" height="100" rx="5" fill="#ffffff" opacity="0.3"/>
+      <circle cx="50" cy="100" r="25" fill="#ffffff" opacity="0.5"/>
+      <rect x="90" y="85" width="180" height="15" rx="5" fill="#ffffff" opacity="0.5"/>
+      <rect x="90" y="115" width="120" height="15" rx="5" fill="#ffffff" opacity="0.5"/>
+      
+      <!-- Bill 2 (Middle) -->
+      <rect x="-20" y="0" width="300" height="140" rx="10" fill="#00a651" opacity="0.9"/>
+      <rect x="0" y="20" width="260" height="100" rx="5" fill="#ffffff" opacity="0.3"/>
+      <circle cx="30" cy="70" r="25" fill="#ffffff" opacity="0.5"/>
+      <rect x="70" y="55" width="180" height="15" rx="5" fill="#ffffff" opacity="0.5"/>
+      <rect x="70" y="85" width="120" height="15" rx="5" fill="#ffffff" opacity="0.5"/>
+      
+      <!-- Bill 3 (Top) -->
+      <rect x="-40" y="-30" width="300" height="140" rx="10" fill="#00a651"/>
+      <rect x="-20" y="-10" width="260" height="100" rx="5" fill="#ffffff" opacity="0.3"/>
+      <circle cx="10" cy="40" r="25" fill="#ffffff" opacity="0.5"/>
+      <rect x="50" y="25" width="180" height="15" rx="5" fill="#ffffff" opacity="0.5"/>
+      <rect x="50" y="55" width="120" height="15" rx="5" fill="#ffffff" opacity="0.5"/>
+    </g>
+    
+    <!-- Coins -->
+    <g transform="translate(100, 0)">
+      <!-- Coin Stack 1 -->
+      <circle cx="0" cy="0" r="40" fill="#ffc107"/>
+      <circle cx="0" cy="0" r="35" fill="#ffcd39"/>
+      <text x="0" cy="5" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">RM</text>
+      
+      <!-- Coin Stack 2 -->
+      <circle cx="-20" cy="-50" r="35" fill="#ffc107"/>
+      <circle cx="-20" cy="-50" r="30" fill="#ffcd39"/>
+      <text x="-20" cy="-45" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">RM</text>
+      
+      <!-- Coin Stack 3 -->
+      <circle cx="30" cy="-30" r="30" fill="#ffc107"/>
+      <circle cx="30" cy="-30" r="25" fill="#ffcd39"/>
+      <text x="30" cy="-25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">RM</text>
+    </g>
+    
+    <!-- Flying Money -->
+    <g transform="translate(0, -150)">
+      <g transform="rotate(15)">
+        <rect x="-40" y="0" width="80" height="40" rx="5" fill="#00a651" opacity="0.9"/>
+        <rect x="-30" y="5" width="60" height="30" rx="3" fill="#ffffff" opacity="0.3"/>
+        <circle cx="-15" cy="20" r="10" fill="#ffffff" opacity="0.5"/>
+        <rect x="0" y="15" width="25" height="5" rx="2" fill="#ffffff" opacity="0.5"/>
+        <rect x="0" y="25" width="15" height="5" rx="2" fill="#ffffff" opacity="0.5"/>
+      </g>
+    </g>
+    
+    <g transform="translate(-80, -120)">
+      <g transform="rotate(-10)">
+        <rect x="-40" y="0" width="80" height="40" rx="5" fill="#00a651" opacity="0.8"/>
+        <rect x="-30" y="5" width="60" height="30" rx="3" fill="#ffffff" opacity="0.3"/>
+        <circle cx="-15" cy="20" r="10" fill="#ffffff" opacity="0.5"/>
+        <rect x="0" y="15" width="25" height="5" rx="2" fill="#ffffff" opacity="0.5"/>
+        <rect x="0" y="25" width="15" height="5" rx="2" fill="#ffffff" opacity="0.5"/>
+      </g>
+    </g>
+    
+    <g transform="translate(80, -100)">
+      <g transform="rotate(25)">
+        <rect x="-40" y="0" width="80" height="40" rx="5" fill="#00a651" opacity="0.7"/>
+        <rect x="-30" y="5" width="60" height="30" rx="3" fill="#ffffff" opacity="0.3"/>
+        <circle cx="-15" cy="20" r="10" fill="#ffffff" opacity="0.5"/>
+        <rect x="0" y="15" width="25" height="5" rx="2" fill="#ffffff" opacity="0.5"/>
+        <rect x="0" y="25" width="15" height="5" rx="2" fill="#ffffff" opacity="0.5"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g opacity="0.3">
+    <!-- Dollar Signs -->
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#00a651">RM</text>
+    <text x="500" y="80" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#00a651">RM</text>
+    <text x="100" y="350" font-family="Arial, sans-serif" font-size="35" font-weight="bold" fill="#00a651">RM</text>
+    <text x="450" y="320" font-family="Arial, sans-serif" font-size="25" font-weight="bold" fill="#00a651">RM</text>
+  </g>
+</svg>

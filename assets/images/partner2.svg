@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="80" viewBox="0 0 150 80">
+  <!-- Background Rectangle (transparent) -->
+  <rect width="150" height="80" fill="transparent"/>
+  
+  <!-- Finance Company Logo -->
+  <g transform="translate(75, 40)">
+    <!-- Circle Background -->
+    <circle cx="0" cy="-10" r="30" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+    
+    <!-- Money Symbol -->
+    <g transform="translate(0, -10) scale(0.5, 0.5)">
+      <path d="M-10,-20 L10,-20 L10,20 L-10,20 Z" fill="#00a651" stroke="#333333" stroke-width="2"/>
+      <text x="0" y="5" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">RM</text>
+    </g>
+    
+    <!-- Company Name -->
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333" text-anchor="middle">MAYBANK</text>
+  </g>
+</svg>

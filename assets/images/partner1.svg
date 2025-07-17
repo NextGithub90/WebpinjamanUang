@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="80" viewBox="0 0 150 80">
+  <!-- Background Rectangle (transparent) -->
+  <rect width="150" height="80" fill="transparent"/>
+  
+  <!-- Bank Logo -->
+  <g transform="translate(75, 40)">
+    <!-- Bank Building Icon -->
+    <g transform="translate(-30, -20) scale(0.8, 0.8)">
+      <!-- Building Base -->
+      <rect x="-30" y="-10" width="60" height="40" fill="#ffffff" stroke="#333333" stroke-width="2" rx="2"/>
+      
+      <!-- Building Roof/Top -->
+      <path d="M-35,-10 L35,-10 L25,-30 L-25,-30 Z" fill="#007bff" stroke="#333333" stroke-width="2"/>
+      
+      <!-- Pillars -->
+      <rect x="-25" y="-10" width="5" height="40" fill="#eeeeee" stroke="#333333" stroke-width="1"/>
+      <rect x="-10" y="-10" width="5" height="40" fill="#eeeeee" stroke="#333333" stroke-width="1"/>
+      <rect x="5" y="-10" width="5" height="40" fill="#eeeeee" stroke="#333333" stroke-width="1"/>
+      <rect x="20" y="-10" width="5" height="40" fill="#eeeeee" stroke="#333333" stroke-width="1"/>
+      
+      <!-- Door -->
+      <rect x="-7.5" y="10" width="15" height="20" fill="#333333"/>
+    </g>
+    
+    <!-- Bank Name -->
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333" text-anchor="middle">BANK RAKYAT</text>
+  </g>
+</svg>
