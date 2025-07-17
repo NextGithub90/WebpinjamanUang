@@ -409,6 +409,11 @@ ul {
   padding: var(--section-padding);
 }
 
+.testimonial-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .testimonial-card {
   background-color: var(--white-color);
   border-radius: 15px;
@@ -792,9 +797,17 @@ ul {
   }
 
   .step-card,
-  .testimonial-card,
   .contact-form-card {
     padding: 20px;
+  }
+
+  .testimonial-card {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .col-md-4 {
+    margin-bottom: 20px;
   }
 
   .benefit-card {
@@ -811,6 +824,17 @@ ul {
     display: block;
     width: 100%;
     margin-bottom: 15px;
+  }
+  .n {
+    padding: 1rem;
+  }
+
+  .testimonial-card {
+    margin-bottom: 35px;
+  }
+
+  .col-md-4 {
+    margin-bottom: 25px;
   }
 
   .hero-buttons .btn.ms-3 {
