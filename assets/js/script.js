@@ -23,12 +23,28 @@ document.addEventListener("DOMContentLoaded", function () {
 function initLoanSlider() {
   const loanSlider = document.getElementById("loan-amount");
   const loanAmountValue = document.getElementById("loan-amount-value");
+  const loanAmountInput = document.getElementById("loan-amount-input");
 
-  if (loanSlider && loanAmountValue) {
+  if (loanSlider && loanAmountValue && loanAmountInput) {
     // Update the loan amount display when slider value changes
     loanSlider.addEventListener("input", function () {
+      const value = parseInt(this.value);
       // Format the loan amount with thousand separators
-      loanAmountValue.textContent = formatNumber(this.value);
+      loanAmountValue.textContent = formatNumber(value);
+      // Sync with text input
+      loanAmountInput.value = value;
+    });
+
+    // Update slider when text input changes
+    loanAmountInput.addEventListener("input", function() {
+      const value = parseInt(this.value) || 1000;
+      // Ensure value is within range
+      const boundedValue = Math.min(Math.max(value, 1000), 100000);
+      
+      // Update slider
+      loanSlider.value = boundedValue;
+      // Update display
+      loanAmountValue.textContent = formatNumber(boundedValue);
     });
 
     // Initialize with formatted value
@@ -43,11 +59,13 @@ function initApplyLoanButton() {
   const applyLoanBtn = document.getElementById("apply-loan-btn");
   const customerNameInput = document.getElementById("customer-name");
   const loanSlider = document.getElementById("loan-amount");
+  const loanAmountInput = document.getElementById("loan-amount-input");
 
-  if (applyLoanBtn && customerNameInput && loanSlider) {
+  if (applyLoanBtn && customerNameInput && loanSlider && loanAmountInput) {
     applyLoanBtn.addEventListener("click", function () {
       const customerName = customerNameInput.value.trim();
-      const loanAmount = loanSlider.value;
+      // Use text input value if available, otherwise use slider value
+      const loanAmount = loanAmountInput.value ? parseInt(loanAmountInput.value) : parseInt(loanSlider.value);
 
       if (customerName === "") {
         showAlert("Sila masukkan nama anda.", "danger");
